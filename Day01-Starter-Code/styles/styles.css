@@ -1,0 +1,40 @@
+html { 
+	height: 100%;
+}
+body {
+	margin:0;
+	padding:0;
+	font-family: Verdana, Geneva, sans-serif;
+}
+a {
+	text-decoration: none;
+}
+#pageheader{
+	background-color: #000;
+}
+#pageheader h1 {
+	padding: 5px 10px;
+	margin: 0;
+}
+#pageheader h1 a{
+	color: red;
+}
+#navigation{
+	text-align: left;
+	background-color: lightgray;
+	border-bottom: 1px solid gray;
+}
+#navigation li, #navigation a{
+	display: inline-block;
+}
+#navigation a:hover{
+	background-color: lightyellow;
+}
+#navigation a{
+	color: black;
+	padding: 10px 15px;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}

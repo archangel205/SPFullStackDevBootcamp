@@ -24,14 +24,14 @@
 		<main>
 			<div id="maincontent">
 				<h2>Enter your weight</h2>
-				<form name="frmCollectWeights" action="handler.html">
+				<form name="frmCollectWeights" action="handler.html" onsubmit="return(validateForm());">
 					<div>
 						<label for="empName">Your Name</label>
-						<input id="empName" type="text" />
+						<input id="empName" type="text" /> <span id="nameMessage"></span>
 					</div>
 					<div class="formSeparator">
 						<label for="empWeight">Your Weight Today</label>
-						<input id="empWeight" type="text" />
+						<input id="empWeight" type="text" /> <span id="weightMessage"></span>
 					</div>
 					<div>
 						<button>Save Weight</button>
